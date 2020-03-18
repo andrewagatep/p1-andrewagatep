@@ -1,0 +1,8 @@
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/bin/Debug/netstandard2.0/MyPizza.Domain.deps.json
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/bin/Debug/netstandard2.0/MyPizza.Domain.dll
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/bin/Debug/netstandard2.0/MyPizza.Domain.pdb
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/obj/Debug/netstandard2.0/MyPizza.Domain.csprojAssemblyReference.cache
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/obj/Debug/netstandard2.0/MyPizza.Domain.AssemblyInfoInputs.cache
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/obj/Debug/netstandard2.0/MyPizza.Domain.AssemblyInfo.cs
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/obj/Debug/netstandard2.0/MyPizza.Domain.dll
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/obj/Debug/netstandard2.0/MyPizza.Domain.pdb
