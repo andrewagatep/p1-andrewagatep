@@ -36,3 +36,4 @@
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/obj/Debug/netcoreapp3.1/staticwebassets/MyPizza.Client.StaticWebAssets.xml
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/obj/Debug/netcoreapp3.1/MyPizza.Client.dll
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/obj/Debug/netcoreapp3.1/MyPizza.Client.pdb
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/obj/Debug/netcoreapp3.1/Razor/Views/User/Register.cshtml.g.cs

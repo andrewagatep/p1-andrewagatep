@@ -1,16 +1,16 @@
-@model MyPizza.Client.Models.PizzaViewModel
+@model MyPizza.Client.Models.UserViewModel
 
-<form action="/pizza/create" method="post">
+<form action="/user/register" method="post">
   @Html.AntiForgeryToken()
 
-  <select asp-for="@Model.Crust">
+  @* <select asp-for="@Model.Crust">
     @foreach (var item in @Model.CrustList)
     {
       <option value="item">item</option>
     }
-  </select>
+  </select> *@
 
-  @foreach (var item in @Model.SizeList)
+  @* @foreach (var item in @Model.SizeList)
   {
     @Html.RadioButtonFor(pvm => pvm.Size, item.Name)
   }
@@ -18,7 +18,21 @@
   @foreach(var item in @Model.ToppingList)
   {
     <input type="checkbox" name="@Model.Toppings" value="@item.Name" />
+  } *@
+
+  @foreach (var item in @Model.UserList)
+  {
+      <input type="text" name="@Model.User" value="@item.Name" />
+      <input type="text" name="@Model.User" value="@item.Username" />
+      <input type="text" name="@Model.User" value="@item.Password" />
   }
 
-  <button type="submit">Create</button>
+  @foreach (var item in @Model.UserList)
+  {
+      @Html.TextBoxFor(uvm => uvm.User, item.Name)
+      @Html.TextBoxFor(uvm => uvm.User, item.Username)
+      @Html.TextBoxFor(uvm => uvm.User, item.Password)
+  }
+
+  <button type="submit">Register</button>
 </form>
