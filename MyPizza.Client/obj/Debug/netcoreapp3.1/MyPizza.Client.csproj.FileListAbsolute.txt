@@ -37,3 +37,9 @@
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/obj/Debug/netcoreapp3.1/MyPizza.Client.dll
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/obj/Debug/netcoreapp3.1/MyPizza.Client.pdb
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/obj/Debug/netcoreapp3.1/Razor/Views/User/Register.cshtml.g.cs
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/obj/Debug/netcoreapp3.1/Razor/Views/Account/Logout.cshtml.g.cs
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Store.cshtml.g.cs
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/obj/Debug/netcoreapp3.1/Razor/Views/Shared/User.cshtml.g.cs
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/bin/Debug/netcoreapp3.1/MyPizza.Storage.dll
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/bin/Debug/netcoreapp3.1/MyPizza.Storage.pdb

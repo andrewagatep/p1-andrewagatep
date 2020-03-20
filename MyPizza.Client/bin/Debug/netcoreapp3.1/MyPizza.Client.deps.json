@@ -25,6 +25,7 @@
       "MyPizza.Client/1.0.0": {
         "dependencies": {
           "MyPizza.Domain": "1.0.0",
+          "MyPizza.Storage": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -312,6 +313,17 @@
         },
         "compile": {
           "MyPizza.Domain.dll": {}
+        }
+      },
+      "MyPizza.Storage/1.0.0": {
+        "dependencies": {
+          "MyPizza.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MyPizza.Storage.dll": {}
+        },
+        "compile": {
+          "MyPizza.Storage.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -1961,6 +1973,11 @@
       "sha512": ""
     },
     "MyPizza.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyPizza.Storage/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -5,6 +5,11 @@ namespace MyPizza.Client.Models
 {
   public class PizzaViewModel
   {
+    //private PizzaBoxRepository pbr;
+    // public Pizza View Model(PizzaBoxRepository repository)
+    // {
+    //   pbr = repository;
+    // }
     public List<Crust> CrustList { get; set; }
     public List<Size> SizeList { get; set; }
     public List<Topping> ToppingList { get; set; }

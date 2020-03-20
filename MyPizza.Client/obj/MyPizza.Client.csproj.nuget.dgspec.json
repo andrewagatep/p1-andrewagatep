@@ -27,6 +27,9 @@
             "projectReferences": {
               "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/MyPizza.Domain.csproj": {
                 "projectPath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/MyPizza.Domain.csproj"
+              },
+              "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/MyPizza.Storage.csproj": {
+                "projectPath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/MyPizza.Storage.csproj"
               }
             }
           }
@@ -82,6 +85,63 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/MyPizza.Storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/MyPizza.Storage.csproj",
+        "projectName": "MyPizza.Storage",
+        "projectPath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/MyPizza.Storage.csproj",
+        "packagesPath": "/home/andrewagatep/.nuget/packages/",
+        "outputPath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/andrewagatep/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/MyPizza.Domain.csproj": {
+                "projectPath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/MyPizza.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

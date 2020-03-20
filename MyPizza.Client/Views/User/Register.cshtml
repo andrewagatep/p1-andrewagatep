@@ -1,4 +1,4 @@
-@model MyPizza.Client.Models.UserViewModel
+@* @model MyPizza.Client.Models.UserViewModel
 
 <form action="/user/register" method="post">
   @Html.AntiForgeryToken()
@@ -20,7 +20,7 @@
     <input type="checkbox" name="@Model.Toppings" value="@item.Name" />
   } *@
 
-  @foreach (var item in @Model.UserList)
+  @* @foreach (var item in @Model.UserList)
   {
       <input type="text" name="@Model.User" value="@item.Name" />
       <input type="text" name="@Model.User" value="@item.Username" />
@@ -35,4 +35,4 @@
   }
 
   <button type="submit">Register</button>
-</form>
+</form> *@

@@ -5,22 +5,34 @@ namespace MyPizza.Client.Controllers
 {
   public class UserController : Controller
   {
+    
     [HttpGet]
-    public IActionResult Read()
+    public IActionResult History(int userId)
     {
-      return View();
+      return View("User");
     }
-
     [HttpGet]
-    public IActionResult Register()
+    public IActionResult Order()
     {
-      return View(new UserViewModel());
+      return View("User");
     }
+    // [HttpGet]
+    // public IActionResult Read()
+    // {
+    //   return View();
+    // }
 
-    [HttpPost]
-    public IActionResult Register(UserViewModel userViewModel)
-    {
-      return View();
-    }
+    // [HttpGet]
+    // public IActionResult Register()
+    // {
+    //   return View(new UserViewModel());
+    // }
+
+    // [HttpPost]
+    // public IActionResult Register(UserViewModel userViewModel)
+    // {
+    //   return View();
+    // }
+
   }
 }

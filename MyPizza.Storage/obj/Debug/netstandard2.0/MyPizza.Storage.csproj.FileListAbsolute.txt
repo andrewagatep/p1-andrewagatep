@@ -6,3 +6,6 @@
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/obj/Debug/netstandard2.0/MyPizza.Storage.AssemblyInfo.cs
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/obj/Debug/netstandard2.0/MyPizza.Storage.dll
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/obj/Debug/netstandard2.0/MyPizza.Storage.pdb
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/bin/Debug/netstandard2.0/MyPizza.Domain.dll
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/bin/Debug/netstandard2.0/MyPizza.Domain.pdb
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/obj/Debug/netstandard2.0/MyPizza.Storage.csproj.CopyComplete

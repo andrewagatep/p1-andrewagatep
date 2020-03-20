@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyPizza.Domain\MyPizza.Domain.csproj" />
+    <ProjectReference Include="..\MyPizza.Storage\MyPizza.Storage.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

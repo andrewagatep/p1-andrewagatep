@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/MyPizza.Domain.dll": {}
         }
+      },
+      "MyPizza.Storage/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MyPizza.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyPizza.Storage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyPizza.Storage.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../MyPizza.Domain/MyPizza.Domain.csproj",
       "msbuildProject": "../MyPizza.Domain/MyPizza.Domain.csproj"
+    },
+    "MyPizza.Storage/1.0.0": {
+      "type": "project",
+      "path": "../MyPizza.Storage/MyPizza.Storage.csproj",
+      "msbuildProject": "../MyPizza.Storage/MyPizza.Storage.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "MyPizza.Domain >= 1.0.0"
+      "MyPizza.Domain >= 1.0.0",
+      "MyPizza.Storage >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -52,6 +71,9 @@
           "projectReferences": {
             "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/MyPizza.Domain.csproj": {
               "projectPath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Domain/MyPizza.Domain.csproj"
+            },
+            "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/MyPizza.Storage.csproj": {
+              "projectPath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Storage/MyPizza.Storage.csproj"
             }
           }
         }

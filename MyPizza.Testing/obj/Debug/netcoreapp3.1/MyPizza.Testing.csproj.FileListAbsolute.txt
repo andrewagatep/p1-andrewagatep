@@ -92,3 +92,5 @@
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Testing/obj/Debug/netcoreapp3.1/MyPizza.Testing.csproj.CopyComplete
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Testing/obj/Debug/netcoreapp3.1/MyPizza.Testing.dll
 /home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Testing/obj/Debug/netcoreapp3.1/MyPizza.Testing.pdb
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Testing/bin/Debug/netcoreapp3.1/MyPizza.Domain.dll
+/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Testing/bin/Debug/netcoreapp3.1/MyPizza.Domain.pdb
