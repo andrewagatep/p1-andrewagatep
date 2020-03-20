@@ -20561,6 +20561,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Pizza/Store/Choose.cshtml",
+      "TargetPath": "Views\\Pizza\\Store\\Choose.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
