@@ -18,11 +18,11 @@ stages:
   - stage: test
     jobs:
       - job: test
-      pool:
-        vmImage: ubuntu-18.04
-      steps:
-        - script: dotnet test --collect:"XPlat Code Coverage"
-          workingDirectory: ./p1_project
+        pool:
+          vmImage: ubuntu-18.04
+        steps:
+          - script: dotnet test --collect:"XPlat Code Coverage"
+            workingDirectory: ./p1_project
 
   - stage: pack
     jobs:
