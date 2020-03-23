@@ -1,7 +1,10 @@
+using MyPizza.Domain.Abstracts;
+
 namespace MyPizza.Domain.Models
 {
-  public class Crust
+  public class Crust : APizzaComponent
   {
-    public string Name { get; set; }
+    public Pizza Pizza {get; set;}
+
   }
 }

@@ -16,23 +16,6 @@ namespace MyPizza.Client.Controllers
     {
       return View("User");
     }
-    // [HttpGet]
-    // public IActionResult Read()
-    // {
-    //   return View();
-    // }
-
-    // [HttpGet]
-    // public IActionResult Register()
-    // {
-    //   return View(new UserViewModel());
-    // }
-
-    // [HttpPost]
-    // public IActionResult Register(UserViewModel userViewModel)
-    // {
-    //   return View();
-    // }
 
   }
 }

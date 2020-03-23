@@ -1,0 +1,30 @@
+@model MyPizza.Client.Models.PizzaViewModel
+
+<h1>Your Cart</h1>
+
+<br>
+<table border=1>
+  <form action="" method="post">
+    <thead>
+      <td>Item</td>
+      <td>Quantity</td>
+      <td>Price</td>
+    </thead>
+  @* @foreach (var item in collection)
+  {
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  } *@
+  </form>
+</table>
+
+<br>
+<h4>Do you want to
+  <a href="/order/choose">Add more items</a>
+   or 
+  <a href="/order/checkout">Checkout</a>
+   ?
+</h4>

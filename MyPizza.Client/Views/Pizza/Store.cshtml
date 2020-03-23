@@ -1,0 +1,19 @@
+@model MyPizza.Client.Models.PizzaViewModel
+
+<form action="/pizza/choose" method="post">
+  @Html.AntiForgeryToken()
+
+  <label asp-for="@Model.StoreName">Choose a store:</label><br>
+  <select name="stores" id="stores" asp-form="@Model.StoreName">
+    <option value="" selected disabled>--</option>
+    @foreach (var store in @Model.Store)
+    {
+        <option value="@store.Id">@store.Name</option>
+    }
+  </select>
+  
+  @Html.ValidationMessageFor(ovm => ovm.StoreName)
+
+  <button type="submit">Select</button>
+
+</form>

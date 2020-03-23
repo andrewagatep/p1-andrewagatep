@@ -1,0 +1,27 @@
+@model MyPizza.Client.Models.PizzaViewModel
+
+<form action="/pizza/confirm" method="post">
+  @Html.AntiForgeryToken()
+
+  <label asp-for="@Model.PizzaName">Choose your pizza:</label><br>
+  <select name="pizza" id="pizza" asp-form="@Model.PizzaName">
+    <option value="" selected disabled>--</option>
+    @foreach (var pizza in @Model.Pizza)
+    {
+        <option value="@pizza.Id">@pizza.Name</option>
+    }
+  </select>
+  <br>
+
+  @foreach (var size in @Model.Size)
+  {
+    <input type="radio" id="size" name="size" asp-form="@Model.SizeName" value="@size.Id">
+    <label for="size">@size.Name</label>
+  }
+  <br>
+  
+  <input type="number" name="quantity" id="quantity" min="1" max="50">
+
+  <button type="submit">Add to Cart</button>
+
+</form>

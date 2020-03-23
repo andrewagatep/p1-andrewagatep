@@ -12,7 +12,7 @@ namespace MyPizza.Client.Controllers
     }
 
     [HttpGet]
-    public IActionResult Create()
+    public IActionResult Create() 
     {
       return View(new PizzaViewModel());
     }
@@ -22,5 +22,29 @@ namespace MyPizza.Client.Controllers
     {
       return View();
     }
+
+    [HttpGet]
+    public IActionResult Store()
+    {
+      return View(new PizzaViewModel());
+    }
+
+    public IActionResult Choose()
+    {
+      return View();
+    }
+
+    [HttpGet]
+    public IActionResult Preset()
+    {
+      return View(new PizzaViewModel());
+    }
+
+    [HttpGet]
+    public IActionResult Confirm()
+    {
+      return View(new PizzaViewModel());
+    }
+    
   }
 }

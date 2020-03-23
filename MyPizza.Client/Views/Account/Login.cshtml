@@ -4,14 +4,14 @@
   @Html.AntiForgeryToken()
 
   <label asp-for="@Model.Username">Username</label>
-  <input type="text" asp-for="@Model.Username"/>
+  <input type="text" asp-for="@Model.Username"/><br>
   @Html.ValidationMessageFor(avm => avm.Username)
 
   <label asp-for="@Model.Password">Password</label>
-  <input type="text" asp-for="@Model.Password">
+  <input type="text" asp-for="@Model.Password"><br>
   @Html.ValidationMessageFor(avm => avm.Password)
 
-  @Html.RadioButtonFor(avm => avm.User, true)
+  @Html.RadioButtonFor(avm => avm.User, true)<br>
 
   <button type="reset">Clear</button>
   <button type="submit">Login</button>

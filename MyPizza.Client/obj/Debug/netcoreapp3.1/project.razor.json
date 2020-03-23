@@ -20526,6 +20526,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Pizza/Store.cshtml",
+      "TargetPath": "Views\\Pizza\\Store.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Order/Cart.cshtml",
+      "TargetPath": "Views\\Order\\Cart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Shared/User.cshtml",
       "TargetPath": "Views\\Shared\\User.cshtml",
       "FileKind": "mvc"
@@ -20536,6 +20546,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Order/History.cshtml",
+      "TargetPath": "Views\\Order\\History.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Shared/Store.cshtml",
       "TargetPath": "Views\\Shared\\Store.cshtml",
       "FileKind": "mvc"
@@ -20543,6 +20558,11 @@
     {
       "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Account/Logout.cshtml",
       "TargetPath": "Views\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Pizza/Preset.cshtml",
+      "TargetPath": "Views\\Pizza\\Preset.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20561,8 +20581,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Pizza/Store/Choose.cshtml",
-      "TargetPath": "Views\\Pizza\\Store\\Choose.cshtml",
+      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Pizza/Confirm.cshtml",
+      "TargetPath": "Views\\Pizza\\Confirm.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20576,13 +20596,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/User/Register.cshtml",
-      "TargetPath": "Views\\User\\Register.cshtml",
+      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Pizza/Choose.cshtml",
+      "TargetPath": "Views\\Pizza\\Choose.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/andrewagatep/revature_projects/p1/p1_project/MyPizza.Client/Views/Account/Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
